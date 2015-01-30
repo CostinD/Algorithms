@@ -14,6 +14,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.IO;
+using System.Threading;
 namespace GraphicSortAlgorithmsCollection
 {
     /// <summary>
@@ -29,7 +30,7 @@ namespace GraphicSortAlgorithmsCollection
         private void SortButton_Click(object sender, RoutedEventArgs e)
         {
             //Parse input array to int array
-            int[] n = ParseInput(DataTextBox.Text);
+            List<int> n = ParseInput(DataTextBox.Text);
 
             if (n != null)
             {
@@ -43,10 +44,10 @@ namespace GraphicSortAlgorithmsCollection
 
                 //Display sorted array in DataTextBox
                 StringBuilder sb = new StringBuilder();
-                for (int i = 0; i < n.Length; i++)
+                for (int i = 0; i < n.Count; i++)
                 {
                     sb.Append(n[i]);
-                    if (i != n.Length - 1)
+                    if (i != n.Count - 1)
                         sb.Append(",");
                 }
                 DataTextBox.Text = sb.ToString();
@@ -57,7 +58,7 @@ namespace GraphicSortAlgorithmsCollection
             }
         }
         //Chooses the proper algorithm based on the AlgorithmsComboBox.SelectedItem
-        private void Sort(ref int[] n)
+        private void Sort(ref List<int> n)
         {
             ComboBoxItem item = AlgorithmsComboBox.SelectedItem as ComboBoxItem;
             switch(item.Content.ToString())
@@ -71,10 +72,13 @@ namespace GraphicSortAlgorithmsCollection
                 case "Selection Sort":
                     SortingAlgorithms.SelectionSort(ref n);
                     break;
+                case "Merge Sort":
+                    n = SortingAlgorithms.MergeSort(n);
+                    break;
             }
         }
         //Parses data from DataTextBox
-        int[] ParseInput(string input)
+        List<int> ParseInput(string input)
         {
             string[] s = DataTextBox.Text.Split(',');
             int[] n = new int[s.Length];
@@ -87,7 +91,7 @@ namespace GraphicSortAlgorithmsCollection
                     return null;
                 }
             }
-            return n;
+            return n.ToList<int>();
         }
         //Brings up menu to browse a file to open
         private void BrowseButton_Click(object sender, RoutedEventArgs e)

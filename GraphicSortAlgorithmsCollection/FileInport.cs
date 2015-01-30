@@ -11,7 +11,7 @@ namespace GraphicSortAlgorithmsCollection
     {
         public static void InportData(ref string data)
         {
-
+            
         }
     }
 }

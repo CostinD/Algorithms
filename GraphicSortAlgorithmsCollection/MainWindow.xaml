@@ -14,6 +14,7 @@
             <ComboBoxItem Content="Bubble Sort"/>
             <ComboBoxItem Content="Insertion Sort"/>
             <ComboBoxItem Content="Selection Sort"/>
+            <ComboBoxItem Content="Merge Sort"/>
         </ComboBox>
         <Label x:Name="DataCountLabel" Content="Random Data Amount :" HorizontalAlignment="Left" Margin="440,78,0,0" VerticalAlignment="Top" Width="155"/>
     </Grid>
