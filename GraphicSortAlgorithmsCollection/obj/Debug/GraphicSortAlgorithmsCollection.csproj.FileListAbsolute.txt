@@ -24,3 +24,16 @@ F:\C# Programming\GraphicSortAlgorithmsCollection\GraphicSortAlgorithmsCollectio
 F:\C# Programming\GraphicSortAlgorithmsCollection\GraphicSortAlgorithmsCollection\obj\Debug\GraphicSortAlgorithmsCollection.g.resources
 F:\C# Programming\GraphicSortAlgorithmsCollection\GraphicSortAlgorithmsCollection\obj\Debug\GraphicSortAlgorithmsCollection.Properties.Resources.resources
 F:\C# Programming\GraphicSortAlgorithmsCollection\GraphicSortAlgorithmsCollection\obj\Debug\GraphicSortAlgorithmsCollection.csproj.GenerateResource.Cache
+C:\Users\grale_000\Documents\GitHub\Algorithms\GraphicSortAlgorithmsCollection\bin\Debug\GraphicSortAlgorithmsCollection.exe.config
+C:\Users\grale_000\Documents\GitHub\Algorithms\GraphicSortAlgorithmsCollection\obj\Debug\GraphicSortAlgorithmsCollection.exe
+C:\Users\grale_000\Documents\GitHub\Algorithms\GraphicSortAlgorithmsCollection\obj\Debug\GraphicSortAlgorithmsCollection.pdb
+C:\Users\grale_000\Documents\GitHub\Algorithms\GraphicSortAlgorithmsCollection\bin\Debug\GraphicSortAlgorithmsCollection.exe
+C:\Users\grale_000\Documents\GitHub\Algorithms\GraphicSortAlgorithmsCollection\bin\Debug\GraphicSortAlgorithmsCollection.pdb
+C:\Users\grale_000\Documents\GitHub\Algorithms\GraphicSortAlgorithmsCollection\obj\Debug\GraphicSortAlgorithmsCollection.csprojResolveAssemblyReference.cache
+C:\Users\grale_000\Documents\GitHub\Algorithms\GraphicSortAlgorithmsCollection\obj\Debug\MainWindow.baml
+C:\Users\grale_000\Documents\GitHub\Algorithms\GraphicSortAlgorithmsCollection\obj\Debug\MainWindow.g.cs
+C:\Users\grale_000\Documents\GitHub\Algorithms\GraphicSortAlgorithmsCollection\obj\Debug\App.g.cs
+C:\Users\grale_000\Documents\GitHub\Algorithms\GraphicSortAlgorithmsCollection\obj\Debug\GraphicSortAlgorithmsCollection_MarkupCompile.cache
+C:\Users\grale_000\Documents\GitHub\Algorithms\GraphicSortAlgorithmsCollection\obj\Debug\GraphicSortAlgorithmsCollection.g.resources
+C:\Users\grale_000\Documents\GitHub\Algorithms\GraphicSortAlgorithmsCollection\obj\Debug\GraphicSortAlgorithmsCollection.Properties.Resources.resources
+C:\Users\grale_000\Documents\GitHub\Algorithms\GraphicSortAlgorithmsCollection\obj\Debug\GraphicSortAlgorithmsCollection.csproj.GenerateResource.Cache
